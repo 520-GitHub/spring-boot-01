@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.example.springboot01.bean.Person",
+      "sourceType": "com.example.springboot01.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.springboot01.bean.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.example.springboot01.bean.Person"
+    },
+    {
+      "name": "person.boos",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.springboot01.bean.Person",
+      "defaultValue": false
+    },
+    {
+      "name": "person.dog",
+      "type": "com.example.springboot01.bean.Dog",
+      "sourceType": "com.example.springboot01.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.springboot01.bean.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.springboot01.bean.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.Integer,java.lang.String>",
+      "sourceType": "com.example.springboot01.bean.Person"
+    }
+  ],
+  "hints": []
+}

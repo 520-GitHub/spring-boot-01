@@ -1,0 +1,29 @@
+server:
+  port: 8084
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8085
+spring:
+  profiles: dev
+---
+server:
+  port: 8086
+spring:
+  profiles: prod
+
+person:
+  name: 小林
+  age: 20
+  boos: true
+  birth: 2019/9/9
+  list:
+    - 5
+    - 小林
+    - 6
+  map: {22: 小王,33: 小李}
+  dog:
+    name: 小狗
+    age: 1
